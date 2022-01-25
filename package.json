@@ -2,8 +2,14 @@
   "name": "content-manager-app-api",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
